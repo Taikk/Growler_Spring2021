@@ -701,6 +701,10 @@ PrefabInstance:
       propertyPath: m_ControllerNode
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 4937093158580203698, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
+      propertyPath: m_ModelTransform
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5788236469428198084, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
       propertyPath: m_CameraGameObject
       value: 
@@ -725,6 +729,10 @@ PrefabInstance:
       propertyPath: m_ModelPrefab
       value: 
       objectReference: {fileID: 7822356435393055627, guid: 26393c0e566f62f418e80914c25ee351, type: 3}
+    - target: {fileID: 6830592861343524170, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
+      propertyPath: m_ModelTransform
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1760254394, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
