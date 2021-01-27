@@ -601,6 +601,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1087136917}
     m_Modifications:
+    - target: {fileID: 1760254393, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
+      propertyPath: m_System
+      value: 
+      objectReference: {fileID: 2079191820}
+    - target: {fileID: 1760254393, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
+      propertyPath: m_Controllers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1760254393, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
+      propertyPath: m_Controllers.Array.data[0]
+      value: 
+      objectReference: {fileID: 91217314}
     - target: {fileID: 1760254394, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
       propertyPath: inputSource
       value: 0
@@ -680,7 +692,11 @@ PrefabInstance:
     - target: {fileID: 4937093158580203698, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
       propertyPath: m_ModelPrefab
       value: 
-      objectReference: {fileID: 7742011301868556801, guid: 9c10e07f80acc4844a0fc83c80e3ff95, type: 3}
+      objectReference: {fileID: 7822356435393055627, guid: d6b021041fcbf744c9a2542bc506c6a3, type: 3}
+    - target: {fileID: 4937093158580203698, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
+      propertyPath: m_AnimateModel
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4937093158580203698, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
       propertyPath: m_ControllerNode
       value: 4
@@ -708,9 +724,8 @@ PrefabInstance:
     - target: {fileID: 6830592861343524170, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
       propertyPath: m_ModelPrefab
       value: 
-      objectReference: {fileID: 6234290754468376148, guid: 0bcd6873590ae004c841d96b23bd8867, type: 3}
+      objectReference: {fileID: 7822356435393055627, guid: 26393c0e566f62f418e80914c25ee351, type: 3}
     m_RemovedComponents:
-    - {fileID: 1760254393, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
     - {fileID: 1760254394, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
 --- !u!4 &251267631 stripped
@@ -4536,18 +4551,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2079191819}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bab7db728c634c808f402e06c1119c55, type: 3}
+  m_Script: {fileID: 11500000, guid: 03a5df2202a8b96488c744be3bd0c33e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputSource: 4
-  speed: 1
-  gravity: -9.81
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  additionalHeight: 0.25
+  m_Timeout: 10
+  m_XRRig: {fileID: 2079191823}
 --- !u!114 &2079191821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4560,7 +4570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aca1fc346609b54dbb0adba4664854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_System: {fileID: 0}
+  m_System: {fileID: 2079191820}
   m_MoveSpeed: 1
   m_EnableStrafe: 1
   m_UseGravity: 1
@@ -4571,6 +4581,17 @@ MonoBehaviour:
   - {fileID: 628749632}
   m_DeadzoneMin: 0.125
   m_DeadzoneMax: 0.925
+--- !u!114 &2079191823 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5788236469428198084, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
+  m_PrefabInstance: {fileID: 251267630}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079191819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7448815bd5148434682b3d931066cd10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2079893549
 PrefabInstance:
   m_ObjectHideFlags: 0
