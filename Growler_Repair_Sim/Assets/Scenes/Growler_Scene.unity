@@ -711,7 +711,7 @@ PrefabInstance:
     - target: {fileID: 4937093158580203698, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
       propertyPath: m_ModelPrefab
       value: 
-      objectReference: {fileID: 400054, guid: ca20b3907ff1c794cb89c1ad2cce8282, type: 3}
+      objectReference: {fileID: 5018023975035549367, guid: 6e0f642e6346ef74e8d9237452fb610a, type: 3}
     - target: {fileID: 4937093158580203698, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
       propertyPath: m_AnimateModel
       value: 0
@@ -747,7 +747,7 @@ PrefabInstance:
     - target: {fileID: 6830592861343524170, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
       propertyPath: m_ModelPrefab
       value: 
-      objectReference: {fileID: 400054, guid: d0c255d07fd68f14b94e55d388e7e6bb, type: 3}
+      objectReference: {fileID: 5018023975035549367, guid: be28cc17570cb5c4a87f2576f3005f0b, type: 3}
     - target: {fileID: 6830592861343524170, guid: b8871ddf395debd4eaf3bbaaca75b221, type: 3}
       propertyPath: m_ModelTransform
       value: 
