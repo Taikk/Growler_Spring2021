@@ -68,8 +68,8 @@ public class HandPresenceBrain : MonoBehaviour
 
     private void Update()
     {
-        spawnedHandModel.SetActive(true);
-        /*if(showController)
+        
+        if(showController)
         {
             spawnedHandModel.SetActive(false);
             spawnedController.SetActive(true);
@@ -79,6 +79,6 @@ public class HandPresenceBrain : MonoBehaviour
             spawnedHandModel.SetActive(true);
             spawnedController.SetActive(false);
             UpdateHandAnimation();
-        }*/
+        }
     }
 }

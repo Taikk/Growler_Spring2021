@@ -992,7 +992,7 @@ GameObject:
   - component: {fileID: 3225625868319934970}
   - component: {fileID: 6612779465276397617}
   - component: {fileID: 933283655571792503}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Logo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1007,16 +1007,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1957769981742807961}
   m_LocalRotation: {x: -0, y: -0.000000005268355, z: -0.000000005268355, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.06}
-  m_LocalScale: {x: 0.009971772, y: 0.009971773, z: 0.009971772}
+  m_LocalPosition: {x: 0, y: 0, z: 0.1}
+  m_LocalScale: {x: 0.00021116137, y: 0.00026346603, z: 0.00021116137}
   m_Children: []
   m_Father: {fileID: 3090668847917109490}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -0, y: -0}
+  m_SizeDelta: {x: 5334, y: 3000.375}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6612779465276397617
 CanvasRenderer:
@@ -1040,13 +1040,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.23529412}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f208616353281d6488648956bb8a7544, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7569c1cbd7804904d8fa30c8c44c6949, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1055,7 +1055,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 2.23
 --- !u!1 &1994765542053052948
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,7 +1198,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1536392132738722067}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
