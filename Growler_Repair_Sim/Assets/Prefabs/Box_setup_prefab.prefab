@@ -186,7 +186,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e5f29c5433d06de45bd6b39917a6acbb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 96e37e4515e395e40b37db71a128c735, type: 2}
+      objectReference: {fileID: 2100000, guid: dca18c29975cfd9468eb7d7c4b9d6bfc, type: 2}
     - target: {fileID: 919132149155446097, guid: e5f29c5433d06de45bd6b39917a6acbb, type: 3}
       propertyPath: m_Name
       value: WoodenBox_01_low (6)
@@ -269,7 +269,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e5f29c5433d06de45bd6b39917a6acbb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 96e37e4515e395e40b37db71a128c735, type: 2}
+      objectReference: {fileID: 2100000, guid: dca18c29975cfd9468eb7d7c4b9d6bfc, type: 2}
     - target: {fileID: 919132149155446097, guid: e5f29c5433d06de45bd6b39917a6acbb, type: 3}
       propertyPath: m_Name
       value: WoodenBox_01_low (5)
@@ -352,7 +352,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e5f29c5433d06de45bd6b39917a6acbb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 96e37e4515e395e40b37db71a128c735, type: 2}
+      objectReference: {fileID: 2100000, guid: dca18c29975cfd9468eb7d7c4b9d6bfc, type: 2}
     - target: {fileID: 919132149155446097, guid: e5f29c5433d06de45bd6b39917a6acbb, type: 3}
       propertyPath: m_Name
       value: WoodenBox_01_low (2)
@@ -435,7 +435,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e5f29c5433d06de45bd6b39917a6acbb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 96e37e4515e395e40b37db71a128c735, type: 2}
+      objectReference: {fileID: 2100000, guid: dca18c29975cfd9468eb7d7c4b9d6bfc, type: 2}
     - target: {fileID: -5754084199372789682, guid: e5f29c5433d06de45bd6b39917a6acbb, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -522,7 +522,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e5f29c5433d06de45bd6b39917a6acbb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 96e37e4515e395e40b37db71a128c735, type: 2}
+      objectReference: {fileID: 2100000, guid: dca18c29975cfd9468eb7d7c4b9d6bfc, type: 2}
     - target: {fileID: 919132149155446097, guid: e5f29c5433d06de45bd6b39917a6acbb, type: 3}
       propertyPath: m_Name
       value: WoodenBox_01_low (4)
@@ -605,7 +605,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e5f29c5433d06de45bd6b39917a6acbb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 96e37e4515e395e40b37db71a128c735, type: 2}
+      objectReference: {fileID: 2100000, guid: dca18c29975cfd9468eb7d7c4b9d6bfc, type: 2}
     - target: {fileID: 919132149155446097, guid: e5f29c5433d06de45bd6b39917a6acbb, type: 3}
       propertyPath: m_Name
       value: WoodenBox_01_low (3)
