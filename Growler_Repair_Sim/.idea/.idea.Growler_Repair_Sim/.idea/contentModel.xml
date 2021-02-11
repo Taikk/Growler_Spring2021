@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\wrigh\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -6,21 +6,14 @@
     <e p="D:\Documents\SPRING 2021\3680\Growler_Spring2021\Growler_Repair_Sim" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Models" t="Include">
-          <e p="Oculus Hands" t="Include">
-            <e p="Materials" t="Include">
-              <e p="Hands_DiffBump.shader" t="Include" />
-              <e p="Hands_Transparent.shader" t="Include" />
-            </e>
-          </e>
-        </e>
         <e p="Scripts" t="Include">
           <e p="Audio" t="Include">
             <e p="AudioManager.cs" t="Include" />
             <e p="Sounds.cs" t="Include" />
           </e>
+          <e p="Debugger.cs" t="Include" />
           <e p="follow_inventory.cs" t="Include" />
-          <e p="HandPresence.cs" t="Include" />
+          <e p="HandPresenceBrain.cs" t="Include" />
           <e p="UI_Interaction" t="Include">
             <e p="DeleteButtonScript.cs" t="Include" />
             <e p="QuitSimulation.cs" t="Include" />
@@ -31,7 +24,6 @@
           <e p="XR" t="Include">
             <e p="ContinuedMovement.cs" t="Include" />
             <e p="FollowInventory.cs" t="Include" />
-            <e p="HandsPresence.cs" t="Include" />
           </e>
         </e>
         <e p="UI" t="Include">
