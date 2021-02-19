@@ -10,6 +10,7 @@
           <e p="Audio" t="Include">
             <e p="AudioManager.cs" t="Include" />
             <e p="Sounds.cs" t="Include" />
+            <e p="VolumeLevel.cs" t="Include" />
           </e>
           <e p="Debugger.cs" t="Include" />
           <e p="follow_inventory.cs" t="Include" />

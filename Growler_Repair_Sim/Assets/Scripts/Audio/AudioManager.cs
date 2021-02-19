@@ -8,7 +8,7 @@ public class AudioManager : MonoBehaviour
 {
     public Sounds[] sounds;
     
-    void Awake()
+        void Awake()
     {
         foreach (Sounds s in sounds)
         {
@@ -36,13 +36,5 @@ public class AudioManager : MonoBehaviour
         }
         s.source.Play();
 
-    }
-
-    public void ChangeVolume(float sliderValue)
-    {
-        foreach (Sounds s in sounds)
-        {
-            s.source.volume = s.volume;
-        }
     }
 }
