@@ -62,7 +62,7 @@ public class Highlight : MonoBehaviour
         if (Physics.Raycast(ray, out rayHit, rayDistance))
         {
             GameObject hitObj = rayHit.collider.gameObject;
-            HighlightObj();
+            HighlightObj(gameObject);
         }
         else
         {
