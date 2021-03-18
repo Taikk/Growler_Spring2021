@@ -1,15 +1,17 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.XR.Oculus;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Rendering;
 
 public class Highlight : MonoBehaviour
 {
-    public Material fixedHighlightMat;
-    public Material repairHighlightMat;
-    public Material replaceHighlightMat;
+    //public Material fixedHighlightMat;
+    //public Material repairHighlightMat;
+    //public Material replaceHighlightMat;
+    public Material newHighlightMat;
     public Material objOriginalMat;
 
     public GameObject highlightedObj;
@@ -22,7 +24,13 @@ public class Highlight : MonoBehaviour
         if (highlightedObj != gameObject)
         {
             ClearHighlight();
-            if (gameObject.layer == 13)
+            newHighlightMat = gameObject.GetComponent<StatsDisplay>().highlightMat;
+            objOriginalMat = gameObject.GetComponent<MeshRenderer>().sharedMaterial;
+            gameObject.GetComponent<MeshRenderer>().sharedMaterial = newHighlightMat;
+            highlightedObj = gameObject;
+            gameObject.GetComponent<StatsDisplay>().enabled = true;
+            highlighterEmptyObj.SetActive(false);
+            /*if (gameObject.layer == 13)
             {
                 //Fixed Highlight
                 objOriginalMat = gameObject.GetComponent<MeshRenderer>().sharedMaterial;
@@ -48,7 +56,7 @@ public class Highlight : MonoBehaviour
                 highlightedObj = gameObject;
                 gameObject.GetComponent<StatsDisplay>().enabled = true;
                 highlighterEmptyObj.SetActive(false);
-            }
+            }*/
         }
     }
 
