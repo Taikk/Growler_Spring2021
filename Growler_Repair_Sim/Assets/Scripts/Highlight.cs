@@ -1,15 +1,17 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.XR.Oculus;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Rendering;
 
 public class Highlight : MonoBehaviour
 {
-    public Material fixedHighlightMat;
-    public Material repairHighlightMat;
-    public Material replaceHighlightMat;
+    //public Material fixedHighlightMat;
+    //public Material repairHighlightMat;
+    //public Material replaceHighlightMat;
+    public Material newHighlightMat;
     public Material objOriginalMat;
 
     public GameObject highlightedObj;
@@ -22,33 +24,14 @@ public class Highlight : MonoBehaviour
         if (highlightedObj != gameObject)
         {
             ClearHighlight();
-            if (gameObject.layer == 13)
-            {
-                //Fixed Highlight
-                objOriginalMat = gameObject.GetComponent<MeshRenderer>().sharedMaterial;
-                gameObject.GetComponent<MeshRenderer>().sharedMaterial = fixedHighlightMat;
-                highlightedObj = gameObject;
-                gameObject.GetComponent<StatsDisplay>().enabled = true;
-                highlighterEmptyObj.SetActive(false);
-            }
-            else if (gameObject.layer == 14)
-            {
-                //Repair Highlight
-                objOriginalMat = gameObject.GetComponent<MeshRenderer>().sharedMaterial;
-                gameObject.GetComponent<MeshRenderer>().sharedMaterial = repairHighlightMat;
-                highlightedObj = gameObject;
-                gameObject.GetComponent<StatsDisplay>().enabled = true;
-                highlighterEmptyObj.SetActive(false);
-            }
-            else if (gameObject.layer == 15)
-            {
-                //Replacement Highlight
-                objOriginalMat = gameObject.GetComponent<MeshRenderer>().sharedMaterial;
-                gameObject.GetComponent<MeshRenderer>().sharedMaterial = replaceHighlightMat;
-                highlightedObj = gameObject;
-                gameObject.GetComponent<StatsDisplay>().enabled = true;
-                highlighterEmptyObj.SetActive(false);
-            }
+            newHighlightMat = gameObject.GetComponent<StatsDisplay>().highlightMat;
+            objOriginalMat = gameObject.GetComponent<MeshRenderer>().sharedMaterial;
+            // call renderer component and find Materials.Element 1 and set as newHighlightMat;
+            gameObject.GetComponent<MeshRenderer>().material = newHighlightMat;
+            //gameObject.GetComponent<MeshRenderer>().sharedMaterial = newHighlightMat;
+            highlightedObj = gameObject;
+            gameObject.GetComponent<StatsDisplay>().enabled = true;
+            highlighterEmptyObj.SetActive(false);
         }
     }
 
@@ -62,7 +45,7 @@ public class Highlight : MonoBehaviour
         if (Physics.Raycast(ray, out rayHit, rayDistance))
         {
             GameObject hitObj = rayHit.collider.gameObject;
-            HighlightObj();
+            HighlightObj(gameObject);
         }
         else
         {

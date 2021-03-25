@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Debugger : MonoBehaviour
 {
-    private void Update(string name)
+    private void DebugMe(string name)
     {
         Debug.Log(name);
     }

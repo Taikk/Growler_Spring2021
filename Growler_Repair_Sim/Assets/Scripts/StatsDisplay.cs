@@ -11,7 +11,7 @@ public class StatsDisplay : MonoBehaviour
     public Text toolText;
     public Text instructionText;
 
-    private Material highlightMat;
+    public Material highlightMat;
 
     public Image perfImage;
     public Image levelImage;
