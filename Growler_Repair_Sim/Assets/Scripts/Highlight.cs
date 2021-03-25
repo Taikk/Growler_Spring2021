@@ -26,37 +26,12 @@ public class Highlight : MonoBehaviour
             ClearHighlight();
             newHighlightMat = gameObject.GetComponent<StatsDisplay>().highlightMat;
             objOriginalMat = gameObject.GetComponent<MeshRenderer>().sharedMaterial;
-            gameObject.GetComponent<MeshRenderer>().sharedMaterial = newHighlightMat;
+            // call renderer component and find Materials.Element 1 and set as newHighlightMat;
+            gameObject.GetComponent<MeshRenderer>().material = newHighlightMat;
+            //gameObject.GetComponent<MeshRenderer>().sharedMaterial = newHighlightMat;
             highlightedObj = gameObject;
             gameObject.GetComponent<StatsDisplay>().enabled = true;
             highlighterEmptyObj.SetActive(false);
-            /*if (gameObject.layer == 13)
-            {
-                //Fixed Highlight
-                objOriginalMat = gameObject.GetComponent<MeshRenderer>().sharedMaterial;
-                gameObject.GetComponent<MeshRenderer>().sharedMaterial = fixedHighlightMat;
-                highlightedObj = gameObject;
-                gameObject.GetComponent<StatsDisplay>().enabled = true;
-                highlighterEmptyObj.SetActive(false);
-            }
-            else if (gameObject.layer == 14)
-            {
-                //Repair Highlight
-                objOriginalMat = gameObject.GetComponent<MeshRenderer>().sharedMaterial;
-                gameObject.GetComponent<MeshRenderer>().sharedMaterial = repairHighlightMat;
-                highlightedObj = gameObject;
-                gameObject.GetComponent<StatsDisplay>().enabled = true;
-                highlighterEmptyObj.SetActive(false);
-            }
-            else if (gameObject.layer == 15)
-            {
-                //Replacement Highlight
-                objOriginalMat = gameObject.GetComponent<MeshRenderer>().sharedMaterial;
-                gameObject.GetComponent<MeshRenderer>().sharedMaterial = replaceHighlightMat;
-                highlightedObj = gameObject;
-                gameObject.GetComponent<StatsDisplay>().enabled = true;
-                highlighterEmptyObj.SetActive(false);
-            }*/
         }
     }
 

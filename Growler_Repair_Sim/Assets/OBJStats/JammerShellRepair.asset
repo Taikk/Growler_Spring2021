@@ -16,7 +16,7 @@ MonoBehaviour:
   description: Radar Jammer in need of subsystem repair
   toolSet: 'Screwdriver, Pliers, Wrench, '
   instructions: 1. Secure Jammer with Pulley System
-  diagnosisMat: {fileID: 2100000, guid: 57e57a95dc0194a4badd4005b09cdae0, type: 2}
-  performance: {fileID: 21300000, guid: 61edc9b89cc0e7846af3bc14f3a2d604, type: 3}
+  diagnosisMat: {fileID: 2100000, guid: d5d9eab8e284d3845b06df0cf3b2c7dd, type: 2}
+  performance: {fileID: 21300000, guid: 97086cce12eb5f34888e024685a15881, type: 3}
   runLevel: {fileID: 21300000, guid: ca50a2ef5fd9f9c46bd24dc232340226, type: 3}
   graph: {fileID: 21300000, guid: bb7a98165932b9a49a9518b18c8cab95, type: 3}

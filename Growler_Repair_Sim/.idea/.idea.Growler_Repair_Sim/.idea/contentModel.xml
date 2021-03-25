@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\tyrel\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\tyrel\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Growler_Repair_Sim.1622105867.00" t="ExcludeRecursive" />
-    <e p="D:\Repositories\Growler_Spring2021\Growler_Repair_Sim" t="IncludeRecursive">
+    <e p="C:\Users\wrigh\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\wrigh\.Rider2019.2\system\resharper-host\Local\Transient\ReSharperHost\v192\SolutionCaches\_Growler_Repair_Sim.796814593.00" t="ExcludeRecursive" />
+    <e p="D:\Documents\Class Stuffs\SPRING 2021\3680\Growler_Spring2021\Growler_Repair_Sim" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -16,6 +16,7 @@
           <e p="follow_inventory.cs" t="Include" />
           <e p="HandPresenceBrain.cs" t="Include" />
           <e p="Highlight.cs" t="Include" />
+          <e p="LODHighlight.cs" t="Include" />
           <e p="StatsDisplay.cs" t="Include" />
           <e p="Tool Interaction" t="Include">
             <e p="Snap Zone.cs" t="Include" />
