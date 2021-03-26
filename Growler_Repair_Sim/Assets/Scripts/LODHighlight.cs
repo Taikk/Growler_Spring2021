@@ -1,16 +1,15 @@
 ﻿using UnityEngine;
-using System.Collections.Generic;
-using UnityEditor;
 using UnityEditor.Experimental.GraphView;
+using UnityEngine.Serialization;
 
 public class LODHighlight : MonoBehaviour
 {
-    public GameObject XRRig;
+    [FormerlySerializedAs("XRRig")] public GameObject xrRig;
     public GameObject highlighter;
 
     public GameObject boxBounds;
 
-    public void BoundingBoxFind()
+    /*public void BoundingBoxFind()
     {
         gameObject.GetComponent<Collider>().bounds = boxBounds;
         if (XRRig.transform.position == boxBounds.transform.position)
@@ -22,7 +21,7 @@ public class LODHighlight : MonoBehaviour
             return;
             //ket already set group as the group
         }
-    }
+    }*/
 
     public void SetGroup()
     {
