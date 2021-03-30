@@ -2,40 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55fbe042-cb2c-4341-965a-a8892bb6f63b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/AR test scene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/AR test scene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/21%.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/21%.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/49%.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/49%.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/92%.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/92%.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Brake Caliper/FlatHead_02_high.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Brake Caliper/PhlipsScrew_02_high.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Carrier/New Carrier Files.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Run level.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Run level.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/graph.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/AudioMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/AudioMixer.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Metal Clack Pots Pans-SoundBible.com-418955204.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Metal Clack Pots Pans-SoundBible.com-418955204.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Steam_Engine-John-1826274710.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Steam_Engine-John-1826274710.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/hard_shoes_1-daniel_simon.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/hard_shoes_1-daniel_simon.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Install Bolt/Bolt_1_4_13_NET3.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Install Bolt/Bolt_1_4_13_NET4.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/AR Material/repair_mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/AR Material/repair_mat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/AR Material/replace_mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/AR Material/replace_mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Brake Caliper/CaliperBreak_Full_01_UVd_high.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Brake Caliper/CaliperBreak_Full_01_UVd_high.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Brake Caliper/CaliperBreak_Full_01_UVd_high.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Brake Caliper/CaliperBreak_Full_01_UVd_high.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/OBJStats/JammerShellFixed.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OBJStats/JammerShellFixed.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/OBJStats/JammerShellRepair.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OBJStats/JammerShellRepair.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/OBJStats/JammerShellReplacement.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OBJStats/JammerShellReplacement.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Growler_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Growler_Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Highlight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Highlight.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LODHighlight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LODHighlight.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tool Interaction/ToolRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tool Interaction/ToolRotation.cs" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,20 +30,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/AR test scene.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tool Interaction/Snap Zone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Highlight.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StatsDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/XR/ObjectStats.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tool Interaction/Snap Zone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StatsDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LODHighlight.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Highlight.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LODHighlight.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/LODHighlight.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tool Interaction/ToolRotation.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Highlight.cs" />
+    </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -85,18 +68,6 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
@@ -117,7 +88,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -135,11 +106,15 @@
       <workItem from="1616639524976" duration="680000" />
       <workItem from="1616641247315" duration="13000" />
       <workItem from="1616641396852" duration="435000" />
+      <workItem from="1616771305505" duration="729000" />
+      <workItem from="1617125001680" duration="4823000" />
+      <workItem from="1617136400310" duration="590000" />
+      <workItem from="1617137146054" duration="4388000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
@@ -148,17 +123,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="XDebuggerManager">
