@@ -12,6 +12,7 @@ public class LODHighlight : MonoBehaviour
     /*public void BoundingBoxFind()
     {
         gameObject.GetComponent<Collider>().bounds = boxBounds;
+        Collider.bounds
         if (XRRig.transform.position == boxBounds.transform.position)
         {
             SetGroup();
