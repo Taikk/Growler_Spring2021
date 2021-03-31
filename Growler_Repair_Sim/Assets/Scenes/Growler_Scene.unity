@@ -28514,12 +28514,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1790424370}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f1324ca58563524b891cf4d35668003, type: 3}
+  m_Script: {fileID: 11500000, guid: a212b8ffb2e84124b3d8489d0eb4843e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fixedMat: {fileID: 2100000, guid: 9d77e062067e15f4f9abf5b8da0564c5, type: 2}
-  repairMat: {fileID: 2100000, guid: d5d9eab8e284d3845b06df0cf3b2c7dd, type: 2}
-  replaceMat: {fileID: 2100000, guid: 31380a730356d694aa404ed2fdd072c1, type: 2}
+  newHighlightMat: {fileID: 0}
   objOriginalMat: {fileID: 0}
   highlightedObj: {fileID: 0}
   highlighterEmptyObj: {fileID: 1790424370}
