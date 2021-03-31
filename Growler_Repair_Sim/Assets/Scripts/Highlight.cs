@@ -2,16 +2,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.XR.Oculus;
+using UnityEditor.Profiling.Memory.Experimental;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Rendering;
 
 public class Highlight : MonoBehaviour
 {
-    //public Material fixedHighlightMat;
-    //public Material repairHighlightMat;
-    //public Material replaceHighlightMat;
-    public Material newHighlightMat;
+    public Material fixedMat;
+    public Material repairMat;
+    public Material replaceMat;
+    //public Material newHighlightMat;
     public Material objOriginalMat;
 
     public GameObject highlightedObj;
@@ -24,14 +25,40 @@ public class Highlight : MonoBehaviour
         if (highlightedObj != gameObject)
         {
             ClearHighlight();
-            newHighlightMat = gameObject.GetComponent<StatsDisplay>().highlightMat;
+            if (gameObject.layer == 13)
+            {
+                objOriginalMat = gameObject.GetComponent<MeshRenderer>().sharedMaterial;
+                gameObject.GetComponent<MeshRenderer>().sharedMaterial = fixedMat;
+                highlightedObj = gameObject;
+                gameObject.GetComponent<StatsDisplay>().enabled = true;
+                highlighterEmptyObj.SetActive(false);
+            }
+            else if (gameObject.layer == 14)
+            {
+                objOriginalMat = gameObject.GetComponent<MeshRenderer>().sharedMaterial;
+                gameObject.GetComponent<MeshRenderer>().sharedMaterial = repairMat;
+                highlightedObj = gameObject;
+                gameObject.GetComponent<StatsDisplay>().enabled = true;
+                highlighterEmptyObj.SetActive(false);
+            }
+            else if (gameObject.layer == 15)
+            {
+                objOriginalMat = gameObject.GetComponent<MeshRenderer>().sharedMaterial;
+                gameObject.GetComponent<MeshRenderer>().sharedMaterial = replaceMat;
+                highlightedObj = gameObject;
+                gameObject.GetComponent<StatsDisplay>().enabled = true;
+                highlighterEmptyObj.SetActive(false);
+            }
+            /*newHighlightMat = gameObject.GetComponent<StatsDisplay>().highlightMat;
             objOriginalMat = gameObject.GetComponent<MeshRenderer>().sharedMaterial;
-            // call renderer component and find Materials.Element 1 and set as newHighlightMat;
-            gameObject.GetComponent<MeshRenderer>().material = newHighlightMat;
-            //gameObject.GetComponent<MeshRenderer>().sharedMaterial = newHighlightMat;
+            gameObject.GetComponent<MeshRenderer>().sharedMaterial = newHighlightMat;
             highlightedObj = gameObject;
             gameObject.GetComponent<StatsDisplay>().enabled = true;
-            highlighterEmptyObj.SetActive(false);
+            highlighterEmptyObj.SetActive(false);*/
+        }
+        else
+        {
+            return;
         }
     }
 
