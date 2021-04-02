@@ -14945,10 +14945,46 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2197543761054505502, guid: 041f31b8d7c1f634d9c4cafcbf2279e7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e8a00c111a2754342a51da1d444fac63, type: 2}
+    - target: {fileID: -1712197283509468697, guid: 041f31b8d7c1f634d9c4cafcbf2279e7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e8a00c111a2754342a51da1d444fac63, type: 2}
+    - target: {fileID: -1426572397939027732, guid: 041f31b8d7c1f634d9c4cafcbf2279e7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e8a00c111a2754342a51da1d444fac63, type: 2}
     - target: {fileID: 919132149155446097, guid: 041f31b8d7c1f634d9c4cafcbf2279e7, type: 3}
       propertyPath: m_Name
       value: CaliperBreak_Full_01_UVd_high
       objectReference: {fileID: 0}
+    - target: {fileID: 1713650850610479943, guid: 041f31b8d7c1f634d9c4cafcbf2279e7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e8a00c111a2754342a51da1d444fac63, type: 2}
+    - target: {fileID: 3118206016053935898, guid: 041f31b8d7c1f634d9c4cafcbf2279e7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e8a00c111a2754342a51da1d444fac63, type: 2}
+    - target: {fileID: 4879311556932027928, guid: 041f31b8d7c1f634d9c4cafcbf2279e7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e8a00c111a2754342a51da1d444fac63, type: 2}
+    - target: {fileID: 5523876457565142226, guid: 041f31b8d7c1f634d9c4cafcbf2279e7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e8a00c111a2754342a51da1d444fac63, type: 2}
+    - target: {fileID: 6943909274964394055, guid: 041f31b8d7c1f634d9c4cafcbf2279e7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e8a00c111a2754342a51da1d444fac63, type: 2}
+    - target: {fileID: 7974040645173966341, guid: 041f31b8d7c1f634d9c4cafcbf2279e7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e8a00c111a2754342a51da1d444fac63, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 041f31b8d7c1f634d9c4cafcbf2279e7, type: 3}
 --- !u!1 &937887840 stripped
