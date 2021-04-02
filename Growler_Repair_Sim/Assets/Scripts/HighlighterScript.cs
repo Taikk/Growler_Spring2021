@@ -24,7 +24,7 @@ public class HighlighterScript : MonoBehaviour
         if (highlightedObj != gameObject)
         {
             Debug.Log("Object is highlighted.");
-            ClearHighlight();
+            //ClearHighlight();
             newHighlightMat = gameObject.GetComponent<StatsDisplay>().highlightMat;
             objOriginalMat = gameObject.GetComponent<MeshRenderer>().sharedMaterial;
             gameObject.GetComponent<MeshRenderer>().sharedMaterial = newHighlightMat;
@@ -32,6 +32,7 @@ public class HighlighterScript : MonoBehaviour
             gameObject.GetComponent<StatsDisplay>().enabled = true;
             highlighterEmptyObj.SetActive(false);
             ARCanvas.SetActive(true);
+            Debug.Log("Hit the bottom.");
 
         }
         else
@@ -74,6 +75,6 @@ public class HighlighterScript : MonoBehaviour
 
     public void Update()
     {
-        HighlightObjWithRaycast();
+        //HighlightObjWithRaycast();
     }
 }
