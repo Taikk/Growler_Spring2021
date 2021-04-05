@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55fbe042-cb2c-4341-965a-a8892bb6f63b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Brake Caliper/FlatHead_02_high.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Brake Caliper/PhlipsScrew_02_high.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Carrier/New Carrier Files.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Run level.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Run level.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/graph.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Brake Caliper/CaliperBreak_Full_01_UVd_high.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Brake Caliper/CaliperBreak_Full_01_UVd_high.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Brake Caliper/CaliperBreak_Full_01_UVd_high.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Brake Caliper/CaliperBreak_Full_01_UVd_high.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OBJStats/JammerShellFixed.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OBJStats/JammerShellFixed.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OBJStats/JammerShellRepair.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OBJStats/JammerShellRepair.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OBJStats/JammerShellReplacement.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OBJStats/JammerShellReplacement.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Growler_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Growler_Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Highlight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Highlight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LODHighlight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LODHighlight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tool Interaction/ToolRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tool Interaction/ToolRotation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HighlighterScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HighlighterScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,16 +21,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Highlight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HighlighterScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/XR/ObjectStats.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Growler_Scene.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tool Interaction/Snap Zone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StatsDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnHoverBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LODHighlight.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/LODHighlight.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Tool Interaction/ToolRotation.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Highlight.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/HighlighterScript.cs" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -110,6 +101,11 @@
       <workItem from="1617125001680" duration="4823000" />
       <workItem from="1617136400310" duration="590000" />
       <workItem from="1617137146054" duration="4388000" />
+      <workItem from="1617143577014" duration="1409000" />
+      <workItem from="1617241148134" duration="1953000" />
+      <workItem from="1617300779392" duration="596000" />
+      <workItem from="1617312691169" duration="41000" />
+      <workItem from="1617313641951" duration="2157000" />
     </task>
     <servers />
   </component>
