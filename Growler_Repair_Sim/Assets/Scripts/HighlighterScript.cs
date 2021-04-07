@@ -15,10 +15,10 @@ public class HighlighterScript : MonoBehaviour
 
     public Material replaceMat;
     
-    //public Material newHighlightMat;
-    public Material objOriginalMat;
+    private Material newHighlightMat;
+    private Material objOriginalMat;
 
-    public GameObject highlightedObj;
+    private GameObject highlightedObj;
     public GameObject highlighterEmptyObj;
 
     public GameObject ARCanvas;
@@ -30,48 +30,16 @@ public class HighlighterScript : MonoBehaviour
         if (highlightedObj != gameObject)
         {
             Debug.Log("Object is highlighted.");
-            if (gameObject.layer == 13)
-            {
-                Debug.Log("Obj is fixed.");
-                /*gameObject.GetComponent<MeshRenderer>().sharedMaterial = fixedMat;
-                highlightedObj = gameObject;
-                gameObject.GetComponent<StatsDisplay>().enabled = true;
-                ARCanvas.SetActive(true);
-                highlighterEmptyObj.SetActive(false);*/
-            }
-            else if (gameObject.layer == 14)
-            {
-                Debug.Log("Obj is in need of repair");
-                /*gameObject.GetComponent<MeshRenderer>().sharedMaterial = repairMat;
-                highlightedObj = gameObject;
-                gameObject.GetComponent<StatsDisplay>().enabled = true;
-                ARCanvas.SetActive(true);
-                highlighterEmptyObj.SetActive(false);*/
-            }
-            else if (gameObject.layer == 15)
-            {
-                Debug.Log("Obj is in need of replacement");
-                /*gameObject.GetComponent<MeshRenderer>().sharedMaterial = replaceMat;
-                highlightedObj = gameObject;
-                gameObject.GetComponent<StatsDisplay>().enabled = true;
-                ARCanvas.SetActive(true);
-                highlighterEmptyObj.SetActive(false);*/
-            }
-            else
-            {
-                Debug.Log("Obj cannot be scanned.");
-                return;
-            }
-            
-            /*ClearHighlight();
-            newHighlightMat = gameObject.GetComponent<StatsDisplay>().highlightMat;
-            objOriginalMat = gameObject.GetComponent<MeshRenderer>().sharedMaterial;
-            gameObject.GetComponent<MeshRenderer>().sharedMaterial = newHighlightMat;
+
+            ClearHighlight();
             highlightedObj = gameObject;
-            gameObject.GetComponent<StatsDisplay>().enabled = true;
+            newHighlightMat = highlightedObj.GetComponent<StatsDisplay>().highlightMat;
+            objOriginalMat = highlightedObj.GetComponent<MeshRenderer>().sharedMaterial;
+            highlightedObj.GetComponent<MeshRenderer>().sharedMaterial = newHighlightMat;
+            highlightedObj.GetComponent<StatsDisplay>().enabled = true;
             highlighterEmptyObj.SetActive(false);
-            ARCanvas.SetActive(true);*/
-            //Debug.Log("Hit the bottom.");
+            ARCanvas.SetActive(true);
+            Debug.Log("Hit the bottom.");
 
         }
         else
@@ -83,7 +51,7 @@ public class HighlighterScript : MonoBehaviour
     public void HighlightObjWithRaycast()
     {
         Debug.Log("Raycast System");
-        float rayDistance = 5000.0f;
+        float rayDistance = 1000.0f;
         //raycast system in center of camera
         Ray ray = ARCam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0.5f));
         RaycastHit rayHit;
@@ -92,7 +60,7 @@ public class HighlighterScript : MonoBehaviour
         {
             Debug.Log("Raycast Hit Something.");
             GameObject hitObj = rayHit.collider.gameObject;
-            HighlightObj(gameObject);
+            HighlightObj(hitObj);
         }
         else
         {

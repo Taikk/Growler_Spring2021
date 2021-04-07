@@ -7238,6 +7238,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 429196450}
     m_Modifications:
+    - target: {fileID: 332513008, guid: f0ad25151e3646949bc02d4c4993d4e8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 332513008, guid: f0ad25151e3646949bc02d4c4993d4e8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.6
+      objectReference: {fileID: 0}
     - target: {fileID: 332513009, guid: f0ad25151e3646949bc02d4c4993d4e8, type: 3}
       propertyPath: m_CameraType
       value: 0
@@ -8876,7 +8884,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8325969863999873031, guid: f0ad25151e3646949bc02d4c4993d4e8, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8325969863999873031, guid: f0ad25151e3646949bc02d4c4993d4e8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19521,6 +19529,7 @@ MonoBehaviour:
   fixedMat: {fileID: 2100000, guid: 9d77e062067e15f4f9abf5b8da0564c5, type: 2}
   repairMat: {fileID: 2100000, guid: d5d9eab8e284d3845b06df0cf3b2c7dd, type: 2}
   replaceMat: {fileID: 2100000, guid: 31380a730356d694aa404ed2fdd072c1, type: 2}
+  newHighlightMat: {fileID: 0}
   objOriginalMat: {fileID: 0}
   highlightedObj: {fileID: 0}
   highlighterEmptyObj: {fileID: 1161860416}
@@ -28965,8 +28974,9 @@ MonoBehaviour:
   fixedMat: {fileID: 2100000, guid: 9d77e062067e15f4f9abf5b8da0564c5, type: 2}
   repairMat: {fileID: 2100000, guid: d5d9eab8e284d3845b06df0cf3b2c7dd, type: 2}
   replaceMat: {fileID: 2100000, guid: 31380a730356d694aa404ed2fdd072c1, type: 2}
-  objOriginalMat: {fileID: 0}
-  highlightedObj: {fileID: 0}
+  newHighlightMat: {fileID: 2100000, guid: dca18c29975cfd9468eb7d7c4b9d6bfc, type: 2}
+  objOriginalMat: {fileID: 2100000, guid: dca18c29975cfd9468eb7d7c4b9d6bfc, type: 2}
+  highlightedObj: {fileID: 1393162934}
   highlighterEmptyObj: {fileID: 1790424370}
   ARCanvas: {fileID: 1834782078}
   ARCam: {fileID: 473315901}
