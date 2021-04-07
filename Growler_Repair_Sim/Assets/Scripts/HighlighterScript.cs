@@ -57,6 +57,12 @@ public class HighlighterScript : MonoBehaviour
                 ARCanvas.SetActive(true);
                 highlighterEmptyObj.SetActive(false);*/
             }
+            else
+            {
+                Debug.Log("Obj cannot be scanned.");
+                return;
+            }
+            
             /*ClearHighlight();
             newHighlightMat = gameObject.GetComponent<StatsDisplay>().highlightMat;
             objOriginalMat = gameObject.GetComponent<MeshRenderer>().sharedMaterial;
@@ -65,7 +71,7 @@ public class HighlighterScript : MonoBehaviour
             gameObject.GetComponent<StatsDisplay>().enabled = true;
             highlighterEmptyObj.SetActive(false);
             ARCanvas.SetActive(true);*/
-            Debug.Log("Hit the bottom.");
+            //Debug.Log("Hit the bottom.");
 
         }
         else
