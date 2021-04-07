@@ -9,11 +9,11 @@ using UnityEngine.Rendering;
 
 public class HighlighterScript : MonoBehaviour
 {
-    public Material fixedMat;
+    //public Material fixedMat;
 
-    public Material repairMat;
+    //public Material repairMat;
 
-    public Material replaceMat;
+    //public Material replaceMat;
     
     private Material newHighlightMat;
     private Material objOriginalMat;
@@ -29,7 +29,7 @@ public class HighlighterScript : MonoBehaviour
     {
         if (highlightedObj != gameObject)
         {
-            Debug.Log("Object is highlighted.");
+            //Debug.Log("Object is highlighted.");
 
             ClearHighlight();
             highlightedObj = gameObject;
@@ -39,7 +39,7 @@ public class HighlighterScript : MonoBehaviour
             highlightedObj.GetComponent<StatsDisplay>().enabled = true;
             highlighterEmptyObj.SetActive(false);
             ARCanvas.SetActive(true);
-            Debug.Log("Hit the bottom.");
+            //Debug.Log("Hit the bottom.");
 
         }
         else
@@ -50,7 +50,7 @@ public class HighlighterScript : MonoBehaviour
 
     public void HighlightObjWithRaycast()
     {
-        Debug.Log("Raycast System");
+        //Debug.Log("Raycast System");
         float rayDistance = 1000.0f;
         //raycast system in center of camera
         Ray ray = ARCam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0.5f));
@@ -58,7 +58,7 @@ public class HighlighterScript : MonoBehaviour
         //check if hit something
         if (Physics.Raycast(ray, out rayHit, rayDistance))
         {
-            Debug.Log("Raycast Hit Something.");
+            //Debug.Log("Raycast Hit Something.");
             GameObject hitObj = rayHit.collider.gameObject;
             HighlightObj(hitObj);
         }
@@ -74,7 +74,7 @@ public class HighlighterScript : MonoBehaviour
         //if obj has highlight mat, clear back to original
         if (highlightedObj != null)
         {
-            Debug.Log("Highight cleared.");
+            //Debug.Log("Highight cleared.");
             highlightedObj.GetComponent<MeshRenderer>().sharedMaterial = objOriginalMat;
             highlightedObj = null;
         }
