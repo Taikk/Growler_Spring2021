@@ -14,8 +14,8 @@ public class StatsDisplay : MonoBehaviour
     public Material highlightMat;
 
     public Image perfImage;
-    public Image levelImage;
-    public Image graphImage;
+    public Image timeImage;
+    //public Image graphImage;
 
     public void Start()
     {
@@ -27,7 +27,7 @@ public class StatsDisplay : MonoBehaviour
         highlightMat = stats.diagnosisMat;
 
         perfImage.sprite = stats.performance;
-        levelImage.sprite = stats.runLevel;
-        graphImage.sprite = stats.graph;
+        timeImage.sprite = stats.timeStamp;
+        //graphImage.sprite = stats.graph;
     }
 }

@@ -17,7 +17,6 @@
           <e p="HandPresenceBrain.cs" t="Include" />
           <e p="Highlight.cs" t="Include" />
           <e p="HighlighterScript.cs" t="Include" />
-          <e p="LODHighlight.cs" t="Include" />
           <e p="OnHoverBehaviour.cs" t="Include" />
           <e p="StatsDisplay.cs" t="Include" />
           <e p="Tool Interaction" t="Include">

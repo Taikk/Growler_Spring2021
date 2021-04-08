@@ -15,6 +15,6 @@ public class ObjectStats : ScriptableObject
     public Material diagnosisMat;
 
     public Sprite performance;
-    public Sprite runLevel;
-    public Sprite graph;
+    public Sprite timeStamp;
+    //public Sprite graph;
 }
