@@ -17,6 +17,5 @@ MonoBehaviour:
   toolSet: 'Screwdriver, Pliers, Wrench, '
   instructions: 1. Secure Jammer with Pulley System
   diagnosisMat: {fileID: 2100000, guid: d5d9eab8e284d3845b06df0cf3b2c7dd, type: 2}
-  performance: {fileID: 21300000, guid: 97086cce12eb5f34888e024685a15881, type: 3}
-  runLevel: {fileID: 21300000, guid: 62e7c3b2567e7bf4dbcdf2aa0d4242ea, type: 3}
-  graph: {fileID: 21300000, guid: 03681e9288917fb4db79c6e50ec8dfd1, type: 3}
+  performance: {fileID: 21300000, guid: da0cab7c6165cb74d9b7516266daa388, type: 3}
+  timeStamp: {fileID: 21300000, guid: fecd2fefd6ebc4c49abb4fe48e214e5f, type: 3}
