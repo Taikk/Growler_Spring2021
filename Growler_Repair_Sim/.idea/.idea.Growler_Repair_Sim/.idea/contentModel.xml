@@ -14,6 +14,7 @@
           </e>
           <e p="Debugger.cs" t="Include" />
           <e p="follow_inventory.cs" t="Include" />
+          <e p="GlassesStatsDisplay.cs" t="Include" />
           <e p="HandPresenceBrain.cs" t="Include" />
           <e p="Highlight.cs" t="Include" />
           <e p="HighlighterScript.cs" t="Include" />

@@ -2,84 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55fbe042-cb2c-4341-965a-a8892bb6f63b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Icon_Artwork/Phone_Signal_Highest-512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Icon_Artwork/Phone_Signal_Highest-512.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Icon_Artwork/bluetooth-512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Icon_Artwork/bluetooth-512.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Icon_Artwork/low-battery-5-474981.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Icon_Artwork/low-battery-5-474981.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Whitebox.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Whitebox/21%.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Whitebox/21%.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Whitebox/49%.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Whitebox/49%.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Whitebox/92%.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Whitebox/92%.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Whitebox/Circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Whitebox/Circle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Whitebox/Run level.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Whitebox/Run level.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Whitebox/graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Whitebox/graph.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Clean UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Clean UI/ScannerBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Clean UI/ScannerBG.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Clean UI/ScannerGREEN01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Clean UI/ScannerGREEN01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Clean UI/ScannerRED01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Clean UI/ScannerRED01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Clean UI/ScannerYELLOW01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Clean UI/ScannerYELLOW01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Clean UI/TimestampBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Clean UI/TimestampBG.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Clean UI/TimestampGREEN - Copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Clean UI/TimestampGREEN - Copy.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Clean UI/TimestampRED - Copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Clean UI/TimestampRED - Copy.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Clean UI/TimestampYELLOW - Copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Clean UI/TimestampYELLOW - Copy.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Manual and Settings.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Manual and Settings/1103U_FRM_GLMAINTOW1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Manual and Settings/1103U_FRM_GLMAINTOW1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Manual and Settings/3-s2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Manual and Settings/3-s2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Manual and Settings/Oculus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Manual and Settings/Oculus.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Manual and Settings/Screen Shot 2018-08-17 at 12.20.06 PM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Manual and Settings/Screen Shot 2018-08-17 at 12.20.06 PM.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OBJStats/JammerShellFixed.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OBJStats/JammerShellFixed.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OBJStats/JammerShellRepair.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OBJStats/JammerShellRepair.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OBJStats/JammerShellReplacement.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OBJStats/JammerShellReplacement.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GlassesStatsDisplay.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GlassesStatsDisplay.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Growler_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Growler_Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StatsDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StatsDisplay.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/XR/ObjectStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/XR/ObjectStats.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Sprites/21%.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Sprites/21%.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Sprites/49%.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Sprites/49%.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Sprites/92%.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Sprites/92%.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Sprites/Circle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Sprites/Circle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Sprites/Phone_Signal_Highest-512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Sprites/Phone_Signal_Highest-512.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Sprites/Run level.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Sprites/Run level.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Sprites/bluetooth-512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Sprites/bluetooth-512.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Sprites/graph.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Sprites/graph.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Sprites/low-battery-5-474981.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Sprites/low-battery-5-474981.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/iPad Images/1103U_FRM_GLMAINTOW1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/iPad Images/1103U_FRM_GLMAINTOW1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/iPad Images/3-s2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/iPad Images/3-s2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/iPad Images/Oculus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/iPad Images/Oculus.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/iPad Images/Screen Shot 2018-08-17 at 12.20.06 PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/iPad Images/Screen Shot 2018-08-17 at 12.20.06 PM.png.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +19,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnHoverBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GlassesStatsDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tool Interaction/Snap Zone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Highlight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StatsDisplay.cs" root0="FORCE_HIGHLIGHTING" />
@@ -105,6 +33,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HighlighterScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/XR/ObjectStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StatsDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ARStatsDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GlassesStatsDisplay.cs" />
       </list>
     </option>
   </component>
@@ -190,6 +120,7 @@
       <workItem from="1617313641951" duration="2157000" />
       <workItem from="1617641605879" duration="332000" />
       <workItem from="1617904079104" duration="62000" />
+      <workItem from="1617927648629" duration="1247000" />
     </task>
     <servers />
   </component>
