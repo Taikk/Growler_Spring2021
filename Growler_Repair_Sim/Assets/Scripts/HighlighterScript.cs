@@ -77,6 +77,8 @@ public class HighlighterScript : MonoBehaviour
         {
             //Debug.Log("Highight cleared.");
             highlightedObj.GetComponent<MeshRenderer>().sharedMaterial = objOriginalMat;
+            highlightedObj.GetComponent<StatsDisplay>().enabled = false;
+            highlightedObj.GetComponent<GlassesStatsDisplay>().enabled = false;
             highlightedObj = null;
         }
     }

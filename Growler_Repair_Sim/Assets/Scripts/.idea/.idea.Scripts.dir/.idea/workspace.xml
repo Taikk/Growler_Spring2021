@@ -64,16 +64,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bc9ada1-7d53-4e2f-abae-0cae9ff59914" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Install Bolt/Bolt_1_4_13_NET3.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Install Bolt/Bolt_1_4_13_NET4.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Materials/AR Material/Fixed_mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../Materials/AR Material/Fixed_mat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Materials/AR Material/repair_mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../Materials/AR Material/repair_mat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Materials/AR Material/replace_mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../Materials/AR Material/replace_mat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJStats/JammerShellFixed.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../OBJStats/JammerShellFixed.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJStats/JammerShellRepair.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../OBJStats/JammerShellRepair.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OBJStats/JammerShellReplacement.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../OBJStats/JammerShellReplacement.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scenes/Growler_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Growler_Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HighlighterScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HighlighterScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,8 +83,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HighlighterScript.cs" />
         <option value="$PROJECT_DIR$/StatsDisplay.cs" />
+        <option value="$PROJECT_DIR$/HighlighterScript.cs" />
       </list>
     </option>
   </component>
@@ -117,6 +110,7 @@
       <updated>1617819349787</updated>
       <workItem from="1617819354181" duration="11048000" />
       <workItem from="1617996527235" duration="512000" />
+      <workItem from="1617997290759" duration="1600000" />
     </task>
     <servers />
   </component>
