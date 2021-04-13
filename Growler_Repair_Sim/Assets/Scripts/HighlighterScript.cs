@@ -37,6 +37,7 @@ public class HighlighterScript : MonoBehaviour
             objOriginalMat = highlightedObj.GetComponent<MeshRenderer>().sharedMaterial;
             highlightedObj.GetComponent<MeshRenderer>().sharedMaterial = newHighlightMat;
             highlightedObj.GetComponent<StatsDisplay>().enabled = true;
+            highlightedObj.GetComponent<GlassesStatsDisplay>().enabled = true;
             highlighterEmptyObj.SetActive(false);
             ARCanvas.SetActive(true);
             //Debug.Log("Hit the bottom.");
@@ -76,6 +77,8 @@ public class HighlighterScript : MonoBehaviour
         {
             //Debug.Log("Highight cleared.");
             highlightedObj.GetComponent<MeshRenderer>().sharedMaterial = objOriginalMat;
+            highlightedObj.GetComponent<StatsDisplay>().enabled = false;
+            highlightedObj.GetComponent<GlassesStatsDisplay>().enabled = false;
             highlightedObj = null;
         }
     }
