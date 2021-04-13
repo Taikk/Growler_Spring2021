@@ -64,6 +64,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bc9ada1-7d53-4e2f-abae-0cae9ff59914" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Scenes/Growler_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Growler_Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HighlighterScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HighlighterScript.cs" afterDir="false" />
     </list>
@@ -77,10 +78,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/HighlighterScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/XR/ObjectStats.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/StatsDisplay.cs" />
         <option value="$PROJECT_DIR$/HighlighterScript.cs" />
       </list>
     </option>
@@ -106,13 +109,15 @@
       <option name="presentableId" value="Default" />
       <updated>1617819349787</updated>
       <workItem from="1617819354181" duration="11048000" />
+      <workItem from="1617996527235" duration="512000" />
+      <workItem from="1617997290759" duration="1600000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -124,6 +129,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
