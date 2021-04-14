@@ -2,12 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55fbe042-cb2c-4341-965a-a8892bb6f63b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SceneChanger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SceneChanger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AR.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AR/GlassesStatsDisplay.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AR/GlassesStatsDisplay.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AR/Highlight.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AR/Highlight.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AR/HighlighterScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AR/HighlighterScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AR/OnHoverBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AR/OnHoverBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AR/StatsDisplay.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AR/StatsDisplay.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Icon_Artwork/Brake_Caliper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Icon_Artwork/Brake_Caliper.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Icon_Artwork/Help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Icon_Artwork/Help.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Icon_Artwork/ToolSet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Icon_Artwork/ToolSet.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Manual and Settings/Caliper_manual.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Manual and Settings/Caliper_manual.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Manual and Settings/Caliper_manual_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/iPad Images/Manual and Settings/Caliper_manual_2.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Growler_Repair_Sim/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Install Bolt/Bolt_1_4_13_NET3.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Install Bolt/Bolt_1_4_13_NET4.unitypackage.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tablet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tablet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/VR Rig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/VR Rig.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Growler_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Growler_Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GlassesStatsDisplay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GlassesStatsDisplay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Highlight.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Highlight.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HighlighterScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HighlighterScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OnHoverBehaviour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OnHoverBehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StatsDisplay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StatsDisplay.cs.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,27 +55,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnHoverBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneChanger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GlassesStatsDisplay.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tool Interaction/Snap Zone.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Highlight.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StatsDisplay.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HighlighterScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AR/HighlighterScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Growler_Scene.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/XR/ObjectStats.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/HighlighterScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/XR/ObjectStats.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StatsDisplay.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ARStatsDisplay.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GlassesStatsDisplay.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SceneChanger.cs" />
-      </list>
-    </option>
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -124,7 +143,8 @@
       <workItem from="1617641605879" duration="332000" />
       <workItem from="1617904079104" duration="62000" />
       <workItem from="1617927648629" duration="1247000" />
-      <workItem from="1618337409237" duration="2352000" />
+      <workItem from="1618343726622" duration="1299000" />
+      <workItem from="1618348832550" duration="220000" />
     </task>
     <servers />
   </component>

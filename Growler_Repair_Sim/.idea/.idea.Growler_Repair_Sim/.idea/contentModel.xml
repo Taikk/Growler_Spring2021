@@ -7,6 +7,13 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="AR" t="Include">
+            <e p="GlassesStatsDisplay.cs" t="Include" />
+            <e p="Highlight.cs" t="Include" />
+            <e p="HighlighterScript.cs" t="Include" />
+            <e p="OnHoverBehaviour.cs" t="Include" />
+            <e p="StatsDisplay.cs" t="Include" />
+          </e>
           <e p="Audio" t="Include">
             <e p="AudioManager.cs" t="Include" />
             <e p="Sounds.cs" t="Include" />
@@ -14,17 +21,10 @@
           </e>
           <e p="Debugger.cs" t="Include" />
           <e p="follow_inventory.cs" t="Include" />
-          <e p="GlassesStatsDisplay.cs" t="Include" />
           <e p="HandPresenceBrain.cs" t="Include" />
-          <e p="Highlight.cs" t="Include" />
-          <e p="HighlighterScript.cs" t="Include" />
-          <e p="OnHoverBehaviour.cs" t="Include" />
+          <e p="LayerDebugger.cs" t="Include" />
           <e p="SceneChanger.cs" t="Include" />
-          <e p="StatsDisplay.cs" t="Include" />
-          <e p="Tool Interaction" t="Include">
-            <e p="Snap Zone.cs" t="Include" />
-            <e p="ToolRotation.cs" t="Include" />
-          </e>
+          <e p="TransformBehaviour.cs" t="Include" />
           <e p="UI_Interaction" t="Include">
             <e p="DeleteButtonScript.cs" t="Include" />
             <e p="QuitSimulation.cs" t="Include" />
