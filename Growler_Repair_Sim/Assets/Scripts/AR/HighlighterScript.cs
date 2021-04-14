@@ -18,6 +18,8 @@ public class HighlighterScript : MonoBehaviour
     private Material newHighlightMat;
     private Material objOriginalMat;
 
+    private int layerMask = 1 << 25;
+
     private GameObject highlightedObj;
     public GameObject highlighterEmptyObj;
 
@@ -27,9 +29,11 @@ public class HighlighterScript : MonoBehaviour
 
     public void HighlightObj(GameObject gameObject)
     {
+        
+        
         if (highlightedObj != gameObject)
         {
-            //Debug.Log("Object is highlighted.");
+            Debug.Log("Object is highlighted.");
 
             ClearHighlight();
             highlightedObj = gameObject;
@@ -40,7 +44,8 @@ public class HighlighterScript : MonoBehaviour
             highlightedObj.GetComponent<GlassesStatsDisplay>().enabled = true;
             highlighterEmptyObj.SetActive(false);
             ARCanvas.SetActive(true);
-            //Debug.Log("Hit the bottom.");
+            
+            Debug.Log("Hit the bottom.");
 
         }
         else
@@ -51,16 +56,18 @@ public class HighlighterScript : MonoBehaviour
 
     public void HighlightObjWithRaycast()
     {
+        layerMask = ~layerMask; //masking raycast to see everything but layer 25
         //Debug.Log("Raycast System");
         float rayDistance = 1000.0f;
         //raycast system in center of camera
         Ray ray = ARCam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0.5f));
         RaycastHit rayHit;
         //check if hit something
-        if (Physics.Raycast(ray, out rayHit, rayDistance))
+        if (Physics.Raycast(ray, out rayHit, rayDistance, layerMask))
         {
             //Debug.Log("Raycast Hit Something.");
             GameObject hitObj = rayHit.collider.gameObject;
+            Debug.Log(hitObj);
             HighlightObj(hitObj);
         }
         else
@@ -77,8 +84,8 @@ public class HighlighterScript : MonoBehaviour
         {
             //Debug.Log("Highight cleared.");
             highlightedObj.GetComponent<MeshRenderer>().sharedMaterial = objOriginalMat;
-            highlightedObj.GetComponent<StatsDisplay>().enabled = false;
             highlightedObj.GetComponent<GlassesStatsDisplay>().enabled = false;
+            highlightedObj.GetComponent<StatsDisplay>().enabled = false;
             highlightedObj = null;
         }
     }
