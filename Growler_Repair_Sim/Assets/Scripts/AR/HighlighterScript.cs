@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.XR.Oculus;
-using UnityEditor.Profiling.Memory.Experimental;
-using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.Rendering;
+﻿using UnityEngine;
 
 public class HighlighterScript : MonoBehaviour
 {
