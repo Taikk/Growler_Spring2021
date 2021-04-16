@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 952e81ba86bad6a40974acf729603910
+  - enabled: 1
+    path: Assets/Scenes/Growler_Scene.unity
+    guid: 5575d07105cfcae41a171d3b594adf9c
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 470d909e7c8566347bfbb1941512a4a6, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 7fc16b32d029c5649b3c137590dbc2f0, type: 2}
