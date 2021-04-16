@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelUserStore">
-    <attachedFolders />
-    <explicitIncludes>
+    <attachedFolders>
       <Path>$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.xr.legacyinputhelpers@2.1.4</Path>
+    </attachedFolders>
+    <explicitIncludes>
       <Path>Library/PackageCache/com.unity.collab-proxy@1.3.9</Path>
       <Path>Library/PackageCache/com.unity.ext.nunit@1.0.5</Path>
       <Path>Library/PackageCache/com.unity.ide.rider@1.2.1</Path>
@@ -11,8 +12,6 @@
       <Path>Library/PackageCache/com.unity.ide.vscode@1.2.3</Path>
       <Path>Library/PackageCache/com.unity.inputsystem@1.0.0</Path>
       <Path>Library/PackageCache/com.unity.render-pipelines.core@8.3.1</Path>
-      <Path>Library/PackageCache/com.unity.render-pipelines.high-definition-config@8.3.1</Path>
-      <Path>Library/PackageCache/com.unity.render-pipelines.high-definition@8.3.1</Path>
       <Path>Library/PackageCache/com.unity.render-pipelines.universal@8.3.1</Path>
       <Path>Library/PackageCache/com.unity.searcher@4.0.9</Path>
       <Path>Library/PackageCache/com.unity.shadergraph@8.3.1</Path>
@@ -20,8 +19,8 @@
       <Path>Library/PackageCache/com.unity.test-framework@1.1.19</Path>
       <Path>Library/PackageCache/com.unity.textmeshpro@3.0.1</Path>
       <Path>Library/PackageCache/com.unity.timeline@1.3.6</Path>
-      <Path>Library/PackageCache/com.unity.visualeffectgraph@8.3.1</Path>
       <Path>Library/PackageCache/com.unity.xr.interaction.toolkit@0.10.0-preview.7</Path>
+      <Path>Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.6</Path>
       <Path>Library/PackageCache/com.unity.xr.management@3.2.17</Path>
       <Path>Library/PackageCache/com.unity.xr.oculus@1.6.1</Path>
       <Path>LocalPackages/com.unity.render-pipelines.high-definition-config</Path>
@@ -30,6 +29,7 @@
     </explicitIncludes>
     <explicitExcludes>
       <Path>.idea</Path>
+      <Path>.vs</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
       <Path>Temp</Path>
