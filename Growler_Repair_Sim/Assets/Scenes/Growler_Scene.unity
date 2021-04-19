@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 86445533}
-  m_IndirectSpecularColor: {r: 0.3552038, g: 0.35855383, b: 0.40073118, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -10054,6 +10054,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1911613773}
     m_Modifications:
+    - target: {fileID: 13334037106414017, guid: 7a5a4b3b10d7afb43b9347a4e6e03de6, type: 3}
+      propertyPath: m_SpotAngle
+      value: 74.14066
+      objectReference: {fileID: 0}
+    - target: {fileID: 13334037106414017, guid: 7a5a4b3b10d7afb43b9347a4e6e03de6, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 46.076485
+      objectReference: {fileID: 0}
     - target: {fileID: 45619069117561762, guid: 7a5a4b3b10d7afb43b9347a4e6e03de6, type: 3}
       propertyPath: m_Name
       value: Light (33)
@@ -28268,6 +28276,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6547819244973502685, guid: 3c9b918950e6a184ca913dc43c3134fd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a8764992ea50e0b4db4def98f9d44096, type: 2}
     - target: {fileID: -3797344356936436720, guid: 3c9b918950e6a184ca913dc43c3134fd, type: 3}
       propertyPath: m_Layer
       value: 2
@@ -28287,7 +28299,11 @@ PrefabInstance:
     - target: {fileID: -1748044697870478154, guid: 3c9b918950e6a184ca913dc43c3134fd, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6762b66ba9be69940ad692e2148c01fa, type: 2}
+      objectReference: {fileID: 2100000, guid: 5f70a8613a9d36245b6020dfd6e7bd24, type: 2}
+    - target: {fileID: -292027609423013632, guid: 3c9b918950e6a184ca913dc43c3134fd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 35dbe87d54bba23458a99530b561a5ce, type: 2}
     - target: {fileID: 57288031580821779, guid: 3c9b918950e6a184ca913dc43c3134fd, type: 3}
       propertyPath: m_Layer
       value: 2
