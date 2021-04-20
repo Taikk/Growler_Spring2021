@@ -33,11 +33,11 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Mat_Carrier_Walls
-    second: {fileID: 2100000, guid: e97093affe1a71549a11c6e44fa64252, type: 2}
+    second: {fileID: 2100000, guid: 16bac9dd86348e342a30bc5252692023, type: 2}
   materials:
     materialImportMode: 1
-    materialName: 0
-    materialSearch: 1
+    materialName: 2
+    materialSearch: 2
     materialLocation: 1
   animations:
     legacyGenerateAnimations: 4

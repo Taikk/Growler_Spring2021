@@ -16,7 +16,6 @@ MonoBehaviour:
   description: Radar Jammer in need of Immediate Replacement,
   toolSet: 'Screwdriver, Pliers, Wrench, '
   instructions: 1. Secure Jammer with Pulley System
-  diagnosisMat: {fileID: 2100000, guid: 31380a730356d694aa404ed2fdd072c1, type: 2}
-  performance: {fileID: 21300000, guid: 7c3d9efeee9e75d428f60bc72997320a, type: 3}
-  runLevel: {fileID: 21300000, guid: 62e7c3b2567e7bf4dbcdf2aa0d4242ea, type: 3}
-  graph: {fileID: 21300000, guid: 03681e9288917fb4db79c6e50ec8dfd1, type: 3}
+  diagnosisMat: {fileID: 2100000, guid: d392f8b80320d2d45849d4187f86f71d, type: 2}
+  performance: {fileID: 21300000, guid: 6bdefb5bf43b0c249bac906f172af512, type: 3}
+  timeStamp: {fileID: 21300000, guid: e2f5ea3730600ed4fa5a5fdd1fb33edd, type: 3}

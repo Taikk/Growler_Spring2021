@@ -16,7 +16,6 @@ MonoBehaviour:
   description: Jammer is up to date. No need for Repairs.
   toolSet: No Tools Required.
   instructions: No Instructions needed.
-  diagnosisMat: {fileID: 2100000, guid: 9d77e062067e15f4f9abf5b8da0564c5, type: 2}
-  performance: {fileID: 21300000, guid: 02286b10408a0a04f801964e4124712e, type: 3}
-  runLevel: {fileID: 21300000, guid: 62e7c3b2567e7bf4dbcdf2aa0d4242ea, type: 3}
-  graph: {fileID: 21300000, guid: 03681e9288917fb4db79c6e50ec8dfd1, type: 3}
+  diagnosisMat: {fileID: 2100000, guid: f5d1ea39f92d55042983b3cbca9caa00, type: 2}
+  performance: {fileID: 21300000, guid: c3e7abff349259d4db88ef42870bcf1e, type: 3}
+  timeStamp: {fileID: 21300000, guid: 1f8e96d3c35bcc64eae0aa34a1a1dfc0, type: 3}
