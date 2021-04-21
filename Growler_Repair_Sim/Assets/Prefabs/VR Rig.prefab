@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 39011817}
   - component: {fileID: 39011819}
   - component: {fileID: 39011818}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Instructions Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 355842556}
   - component: {fileID: 355842558}
   - component: {fileID: 355842557}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Service
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 480381053}
   - component: {fileID: 480381055}
   - component: {fileID: 480381054}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: AR Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +263,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.08484, y: 0}
+  m_AnchoredPosition: {x: -0.029, y: 0}
   m_SizeDelta: {x: 0.015, y: 0.01}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &480381055
@@ -315,7 +315,7 @@ GameObject:
   - component: {fileID: 900948489}
   - component: {fileID: 900948491}
   - component: {fileID: 900948490}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Performance Image Bckg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -392,7 +392,7 @@ GameObject:
   - component: {fileID: 965531511}
   - component: {fileID: 965531510}
   - component: {fileID: 965531513}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Glasses UI Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -440,7 +440,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -953,7 +953,7 @@ GameObject:
   - component: {fileID: 1520633602}
   - component: {fileID: 1520633604}
   - component: {fileID: 1520633603}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Time Stamp Bckg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1028,7 +1028,7 @@ GameObject:
   - component: {fileID: 1600676107}
   - component: {fileID: 1600676109}
   - component: {fileID: 1600676108}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Battery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1103,7 +1103,7 @@ GameObject:
   - component: {fileID: 1680472843}
   - component: {fileID: 1680472845}
   - component: {fileID: 1680472844}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Name Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1182,7 +1182,7 @@ GameObject:
   - component: {fileID: 1744977596}
   - component: {fileID: 1744977598}
   - component: {fileID: 1744977597}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Description Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1261,7 +1261,7 @@ GameObject:
   - component: {fileID: 1754338789}
   - component: {fileID: 1754338791}
   - component: {fileID: 1754338790}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Bluetooth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1336,7 +1336,7 @@ GameObject:
   - component: {fileID: 1897684444}
   - component: {fileID: 1897684446}
   - component: {fileID: 1897684445}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Performance Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1409,7 +1409,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1947278154}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: AR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1457,7 +1457,7 @@ GameObject:
   - component: {fileID: 2028822081}
   - component: {fileID: 2028822083}
   - component: {fileID: 2028822082}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Time Stamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
