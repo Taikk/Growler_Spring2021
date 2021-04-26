@@ -30,11 +30,12 @@ public class HighlighterScript : MonoBehaviour
 
             ClearHighlight();
             highlightedObj = gameObject;
-            newHighlightMat = highlightedObj.GetComponent<StatsDisplay>().highlightMat;
             objOriginalMat = highlightedObj.GetComponent<MeshRenderer>().sharedMaterial;
+            newHighlightMat = highlightedObj.GetComponent<StatsDisplay>().highlightMat;
+            
             highlightedObj.GetComponent<MeshRenderer>().sharedMaterial = newHighlightMat;
             highlightedObj.GetComponent<StatsDisplay>().enabled = true;
-            highlightedObj.GetComponent<GlassesStatsDisplay>().enabled = true;
+            //highlightedObj.GetComponent<GlassesStatsDisplay>().enabled = true;
             highlighterEmptyObj.SetActive(false);
             ARCanvas.SetActive(true);
             
@@ -77,8 +78,8 @@ public class HighlighterScript : MonoBehaviour
         {
             //Debug.Log("Highight cleared.");
             highlightedObj.GetComponent<MeshRenderer>().sharedMaterial = objOriginalMat;
-            highlightedObj.GetComponent<GlassesStatsDisplay>().enabled = false;
-            highlightedObj.GetComponent<StatsDisplay>().enabled = false;
+            //highlightedObj.GetComponent<GlassesStatsDisplay>().enabled = false;
+            //highlightedObj.GetComponent<StatsDisplay>().enabled = false;
             highlightedObj = null;
         }
     }
