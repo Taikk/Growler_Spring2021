@@ -31,6 +31,7 @@
           <e p="UI_Interaction" t="Include">
             <e p="DeleteButtonScript.cs" t="Include" />
             <e p="QuitSimulation.cs" t="Include" />
+            <e p="Respawn.cs" t="Include" />
             <e p="UI_LockScreenLogic.cs" t="Include" />
             <e p="UI_ScreenTransition.cs" t="Include" />
             <e p="UnderConstructionScript.cs" t="Include" />
